@@ -1,0 +1,11 @@
+[core]
+	autocrlf = true
+	excludesfile = C:\\Users\\cvia\\Documents\\gitignore_global.txt
+[user]
+	name = Cory Via
+	email = cvia@egov.com
+[filter "lfs"]
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
